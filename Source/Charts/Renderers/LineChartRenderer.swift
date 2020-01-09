@@ -114,6 +114,7 @@ open class LineChartRenderer: LineRadarRenderer
             var curDx: CGFloat = 0.0
             var curDy: CGFloat = 0.0
             
+            
             // Take an extra point from the left, and an extra from the right.
             // That's because we need 4 points for a cubic bezier (cubic=4), otherwise we get lines moving and doing weird stuff on the edges of the chart.
             // So in the starting `prev` and `cur`, go -2, -1
